@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #6fb400;
+    color: #ffffff;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -66,8 +66,45 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: #6fb400;
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .product {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+
+    .buy-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
 }
